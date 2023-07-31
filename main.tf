@@ -1,7 +1,6 @@
-# Define Terraform provider
 terraform {
-  required_version = ">= 1.3"
   backend "azurerm" {
+    subscription_id      = "79140c7f-41cc-4861-9bfa-d7f2bc46d5c9"
     resource_group_name  = "rg-shared-mgmt-francecentral-001"
     storage_account_name = "stmgmtfcngd001"
     container_name       = "tfstate"
@@ -14,7 +13,7 @@ terraform {
     }
   }
 }
-# Configure the Azure provider
+
 provider "azurerm" { 
   features {}  
 }
