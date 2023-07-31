@@ -19,5 +19,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
     location = "France Central"
-    name     = "rg-test-github-actions"
+    name     = "rg-test-github-action"
 }
