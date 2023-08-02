@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "rg" {
     name     = "rg-test-github-actions"
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg2" {
     location = "France Central"
     name     = "rg-test-github-actions2"
 }
