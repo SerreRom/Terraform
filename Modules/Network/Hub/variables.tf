@@ -16,7 +16,7 @@ variable "tags" {
     default     = {}
 }
 
-variable "vwan-region1-hub1-prefix" {
+variable "vwan1-hub1-prefix" {
     description = "IP address space for the hub network in Azure Virtual WAN"
     default        = "10.11.0.0/24"
 }
