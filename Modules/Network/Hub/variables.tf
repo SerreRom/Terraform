@@ -14,4 +14,9 @@ variable "tags" {
     description = "A map of tags to add to all resources"
     type        = map(string)
     default     = {}
- }
+}
+
+variable "vwan-region1-hub1-prefix" {
+    description = "IP address space for the hub network in Azure Virtual WAN"
+    default        = "10.11.0.0/24"
+}
